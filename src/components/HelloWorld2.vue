@@ -1,21 +1,16 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <button @click="doIncrement">tombol</button>
+    <!-- <h1>{{ msg }}</h1> -->
+    <h1> Hai Prakerja 2 </h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  },
-  methods: {
-    doIncrement() {
-      this.$emit("update-counter")
-    }
-  }
+  name: 'HelloWorld2',
+  // props: {
+  //   msg: String
+  // }
 }
 </script>
 
