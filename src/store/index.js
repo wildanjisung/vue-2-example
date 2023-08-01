@@ -3,6 +3,7 @@ import Vuex from 'vuex'
 import createPersistedState from 'vuex-persistedstate';
 
 import about from './about'
+import pokemon from './pokemon'
 
 Vue.use(Vuex)
 
@@ -16,6 +17,10 @@ export default new Vuex.Store({
     about: {
       namespaced: true,
       ...about,
+    },
+    pokemon: {
+      namespaced: true,
+      ...pokemon,
     }
   }
 });

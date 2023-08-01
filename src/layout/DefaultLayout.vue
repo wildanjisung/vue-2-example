@@ -6,7 +6,8 @@
       <router-link to="/setting">Setting</router-link> |
       <router-link to="/setting/privacy">Privacy</router-link> |
       <router-link to="/user">User</router-link> |
-      <router-link to="/user/123">User Detail</router-link>
+      <router-link to="/user/123">User Detail</router-link> |
+      <router-link to="/pokemon">Pokemon</router-link>
     </nav>
     <div class="container">
       <router-view/>

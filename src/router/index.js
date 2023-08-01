@@ -7,6 +7,7 @@ import PrivacyView from '../views/PrivacyView.vue'
 import DefaultLayoutView from '../layout/DefaultLayout.vue'
 import UserView from '../views/UserView.vue'
 import UserDetailView from '../views/UserDetailView.vue'
+import PokemonView from '../views/PokemonView.vue'
 
 Vue.use(VueRouter)
 
@@ -60,6 +61,11 @@ const routes = [
             component: UserDetailView,
           },
         ],
+      },
+      {
+        path: '/pokemon',
+        name: 'Pokemon',
+        component: PokemonView
       },
     ]
   }
